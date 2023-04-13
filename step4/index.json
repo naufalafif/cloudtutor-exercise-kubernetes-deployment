@@ -1,0 +1,10 @@
+{
+  "type": "challenge",
+  "questions": [
+    {
+      "question": "1_task.md",
+      "verify": "1_verify.sh",
+      "hint": "1_hint.md"
+    }
+  ]
+}

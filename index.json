@@ -1,0 +1,43 @@
+{
+  "title": "Deployment",
+  "description": "Pelajari cara membuat dan mengelola Kubernetes Deployment",
+  "time": "30 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Apa itu Deployment",
+        "path": "step1.md",
+        "type": "markdown"
+      },
+      {
+        "title": "Struktur Deployment",
+        "path": "step2.md",
+        "type": "markdown"
+      },
+      {
+        "title": "Membuat Deployment",
+        "path": "step3.md",
+        "type": "markdown"
+      },
+      {
+        "title": "Challenge",
+        "path": "step4/index.json",
+        "type": "challenge"
+      }
+    ],
+    "intro": {
+      "content": "intro.md"
+    },
+    "finish": {
+      "content": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor"
+  },
+  "backend": {
+    "imageid": "kind-v2",
+    "init_env_file": "init_env.sh",
+    "open_ports": [80, 8000, 8080]
+  }
+}
